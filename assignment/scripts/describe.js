@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We made a boolean called "secret" and set it to nothing; it is false.
+// We made a variable called "code" and set it to 123 as a number.
+// We created an if conditional evaluating if our variable 'code' is equal to 123,
+// 'secret' is assigned the string value "super" & variable 'code' is set to its own value multiplied by 2.
+// Then, if our variable code's value is > 250, variable 'secret' is set to "duper"
+// Lastly, we will console log the value of 'secret' after the if-statements have been evaluated in order.
+// The console will log "super".
 
 //CODE
 /*
@@ -66,12 +69,11 @@ if (code > 250) {
 }
 
 console.log(secret)
-
 */
 
-// 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+//
+//
+//
 // 
 //
 
