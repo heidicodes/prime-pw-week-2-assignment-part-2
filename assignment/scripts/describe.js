@@ -71,11 +71,17 @@ if (code > 250) {
 console.log(secret)
 */
 
-//
-//
-//
-// 
-//
+
+// 3. WRITE YOUR DESCRIPTION HERE
+// We created a boolean, 'isStudent' and set it to true, we create variables 'age' and 'zip' and set their respective values as numbers.
+// Next, we make a compound conditional to evaluate that if our boolean is true AND our variable 'zip' > 80000,
+// we log "You're a student on the West Coast!"; Nothing will be logged here since NOT both are true.
+// Then 'else if' statements are created to indicate that, if not both of these things are truthy,
+// Then, the next conditional will be evaluated -- if 'isStudent' equals false OR 'age' < 30, we log "What are your hobbies?"
+// Since the first criteria is falsey and the second is truthy, "What are your hobbies?" will be logged.
+// Then we create another 'else-if' statement evaluating only one criteria, if 'isStudent' is equal to true,
+// we will log "Welcome to Prime!"
+// Otherwise, if none of this is truthy, we will log "How about the weather?"
 
 //CODE
 /*
