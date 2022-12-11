@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane.
+// Then we create a conditional if name is "Mary" then the indicated phrase "Hi, Mary!" will log.
+// Next an else statement is incremented to indicate that if the variable 'name' is not set to 'Mary' then "How do you do?" will be logged.
+// "How do you do?" will be logged in the console because 'name' is set to 'Dane'.
 
 //CODE
 /*
