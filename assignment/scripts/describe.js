@@ -157,6 +157,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// we should use '&&' to check for both criteria
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
