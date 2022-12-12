@@ -144,6 +144,8 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+ // colorTwo needs to be set to 'purple' also
+ // colorTwo = 'purple'; 
 }
 */
 
