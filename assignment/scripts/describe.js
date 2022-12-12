@@ -144,7 +144,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
- // colorTwo needs to be set to 'purple' also
+ // FIX colorTwo needs to be set to 'purple' also
  // colorTwo = 'purple'; 
 }
 */
@@ -157,7 +157,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-// we should use '&&' to check for both criteria
+// FIX we should use '&&' to check for both criteria
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -171,9 +171,13 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX if(age >= minAge) {
+//    console.log('enter');
+//}
 if(minAge <= age) {
-  console.log('no entry');
+  console.log('no entry');  
 } else {
+ //FIX console.log('no entry'); 
   console.log('enter');
 }
 */
