@@ -45,7 +45,7 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We made a boolean called "secret" and set it to nothing; it is false.
+// We made a variable called "secret" and set it to nothing.
 // We made a variable called "code" and set it to 123 as a number.
 // We created an if conditional evaluating if our variable 'code' is equal to 123,
 // 'secret' is assigned the string value "super" & variable 'code' is set to its own value multiplied by 2.
@@ -78,10 +78,10 @@ console.log(secret)
 // we log "You're a student on the West Coast!"; Nothing will be logged here since NOT both are true.
 // Then 'else if' statements are created to indicate that, if not both of these things are truthy,
 // Then, the next conditional will be evaluated -- if 'isStudent' equals false OR 'age' < 30, we log "What are your hobbies?"
-// Since the first criteria is falsey and the second is truthy, "What are your hobbies?" will be logged.
-// Then we create another 'else-if' statement evaluating only one criteria, if 'isStudent' is equal to true,
-// we will log "Welcome to Prime!"
-// Otherwise, if none of this is truthy, we will log "How about the weather?"
+// Since the first criteria is truthy and the second is truthy, "What are your hobbies?" will not be logged;
+// Rather, the next else if statement will evaluate the truthy statement of isStudent equal to true so "Welcome to Prime" will be logged.
+// Otherwise, if none of this is truthy, we will log "How about the weather?" - 
+// this will not be logged because the second else if is truthy.
 
 //CODE
 /*
@@ -138,7 +138,9 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+ // FIX colorOne = 'blue';
 let colorOne = 'red';
+ // FIX colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
